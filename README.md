@@ -87,6 +87,11 @@ But it will be using the DELETE protocol so again we will need to use Postman to
 
 Write a SQL statement to DELETE FROM users WHERE first_name = req param first_name
 
+### Create a full Query
+
+- In your `getAllUsers` return all fields of all users including the fields of `usersContact` & `usersAddress`
+- In your `createUser` be sure that a complete user is created inluding all fields in `usersContact` & `usersAddress`
+
 ## Summary
 
 If all went according to plan we now have a full CRUD API that selects, inserts, updates and deletes from a SQL database. Great job! Take the time to start expanding on these concepts. 
